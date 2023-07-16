@@ -14,7 +14,7 @@ async function getCountriesFromAPI() {
           ID: country.cca3,
           name: country.name.common,
           flags: country.flags.png,
-          continents: country.continents,
+          continents: country.continents[0],
           capital: country.capital && country.capital.length > 0 ? country.capital[0] : 'No Exist Capital',
           subregion: country.subregion,
           area: country.area,

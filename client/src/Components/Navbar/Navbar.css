@@ -1,0 +1,25 @@
+.nav-cont {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .nav-img-cont img {
+    height: 50px;
+  }
+  
+  .nav-link-cont {
+    display: flex;
+  }
+  
+  .nav-link-cont a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .nav-link-cont a:hover {
+    text-decoration: underline;
+  }
